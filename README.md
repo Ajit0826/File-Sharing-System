@@ -49,4 +49,25 @@ This project demonstrates backend architecture, API development, cloud storage l
 ---
 
 ## 📁 Project Folder Structure
+File-Sharing-System/
+│
+├── controllers/
+│   └── fileController.js        # Handles upload + download logic
+│
+├── models/
+│   └── fileModel.js             # Mongoose schema for file metadata
+│
+├── routes/
+│   └── fileRoutes.js            # API endpoints for upload/download
+│
+├── uploads/                     # Stores uploaded files (auto-generated)
+│   └── <uploaded-files>
+│
+├── .env                         # Environment variables (PORT, MONGO_URI)
+├── .gitignore                   # Ignore node_modules, uploads, etc.
+├── package.json                 # Project metadata + dependencies
+├── package-lock.json
+├── server.js                    # Main server entry file
+└── README.md                    # Project documentation
+
 
